@@ -20,6 +20,8 @@ $(document).ready(function(){
 			$( ".home-copy #invitation_email" ).val('Request Invitation');
 		}
 	});
+
+	$("#screenlayer").css("height",screen.height);
 	
 /*	document.getElementById("invitation_form").onsubmit = function (ev) {
 		console.log("Here");

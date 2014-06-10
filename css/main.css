@@ -361,11 +361,6 @@ p span {
   transition: position, 700ms;
 }
 
-/* line 1, ../sass/partials/_slides.sass */
-.main {
-	background-color: rgba(50, 50, 50, 0.5);
-}
-
 /* line 58, ../sass/partials/_slides.sass */
 .contact {
   -webkit-transition: all, 400ms;
@@ -938,4 +933,9 @@ overflow: auto;
 }
 .section1, .section2{
 min-height:450px;
+}
+#screenlayer{
+background-color:rgba(50, 50, 50, 0.5);
+position:fixed;
+width:100%;
 }
