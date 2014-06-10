@@ -751,7 +751,7 @@ section {
 }
 
 .social-header{
-	position: fixed;
+	position: absolute;
     left: 6%;
     top: 6%;
 }
@@ -884,6 +884,13 @@ list-style: none;
 margin: 0;
 padding: 0;
 }
+
+@media (min-width: 768px) {
+  .onepage-pagination{
+	position: absolute;
+  }
+}
+
 .onepage-pagination li {
 margin: 0 5px;
 display: inline;
